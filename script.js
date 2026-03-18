@@ -199,6 +199,26 @@ backToTop.addEventListener('click', () => {
 });
 
 // ===== STAT COUNTER =====
+function updateDynamicStats() {
+    const statNumbers = document.querySelectorAll('.stat-number');
+    if (statNumbers.length >= 3) {
+        // 1. Projects count (count total .project-card elements)
+        const totalProjects = document.querySelectorAll('.project-card').length;
+        statNumbers[0].setAttribute('data-count', totalProjects);
+
+        // 2. Technologies count (count total .skill-card elements)
+        const totalTech = document.querySelectorAll('.skill-card').length;
+        statNumbers[1].setAttribute('data-count', totalTech);
+
+        // 3. Years learning (assuming started learning roughly ~2024)
+        const startYear = 2024;
+        const currentYear = new Date().getFullYear();
+        let yearsLearning = currentYear - startYear;
+        if (yearsLearning < 1) yearsLearning = 1;
+        statNumbers[2].setAttribute('data-count', yearsLearning);
+    }
+}
+
 function animateCounters() {
     const counters = document.querySelectorAll('.stat-number');
 
@@ -340,6 +360,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // ===== INITIALIZE =====
 document.addEventListener('DOMContentLoaded', () => {
+    updateDynamicStats();
     setupScrollAnimations();
 
     // Reveal project cards on load
