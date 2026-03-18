@@ -34,7 +34,7 @@ const translations = {
         eduTitle: "Education",
         eduDesc: "Software Engineering Student",
         locTitle: "Location",
-        locDesc: "Indonesia",
+        locDesc: "Purwokerto, Central Java, Indonesia",
         intTitle: "Interests",
         intDesc: "Web Dev, AI, Open Source",
         funTitle: "Fun Fact",
@@ -108,9 +108,9 @@ const translations = {
         waAct3Desc: "Free consultation before deciding",
 
         contactLocTitle: "Location",
-        contactLocDesc: "Indonesia",
+        contactLocDesc: "Purwokerto, Central Java, Indonesia",
         contactEmailTitle: "Email",
-        contactEmailDesc: "faqih@example.com",
+        contactEmailDesc: "faqihmuhammadichsan18@gmail.com",
         contactTagClose: "&lt;/contact&gt;",
 
         // Footer
@@ -159,7 +159,7 @@ const translations = {
         eduTitle: "Pendidikan",
         eduDesc: "Mahasiswa Rekayasa Perangkat Lunak",
         locTitle: "Lokasi",
-        locDesc: "Indonesia",
+        locDesc: "Purwokerto, Banyumas, Jawa Tengah, Indonesia",
         intTitle: "Minat",
         intDesc: "Web Dev, AI, Open Source",
         funTitle: "Fakta Unik",
@@ -233,9 +233,9 @@ const translations = {
         waAct3Desc: "Konsultasi gratis sebelum memutuskan",
 
         contactLocTitle: "Lokasi",
-        contactLocDesc: "Indonesia",
+        contactLocDesc: "Purwokerto, Banyumas, Jawa Tengah, Indonesia",
         contactEmailTitle: "Email",
-        contactEmailDesc: "faqih@example.com",
+        contactEmailDesc: "faqihmuhammadichsan18@gmail.com",
         contactTagClose: "&lt;/kontak&gt;",
 
         // Footer
